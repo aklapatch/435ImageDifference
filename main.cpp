@@ -110,7 +110,7 @@ const char * fname = "input_image.raw";
         sobel_op.resize(3);
 
         // 0,0 is the top left of the operator matrix
-            sobel_op[0].assign({ 1, 0, -1  });
+            sobel_op[0].assign ( { 1, 0, -1  });
 
             sobel_op[1].assign({ 2, 0, -2  });
 
